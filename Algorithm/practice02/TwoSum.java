@@ -18,7 +18,7 @@ public class TwoSum {
 	public int[] solve(int[] nums, int target) {
 		int[] result = new int[2];
 //		
-		//첫번째 내가 푼것.
+		//첫번�? ?���? ?���?.
 //		for(int i=0;i<nums.length;i++) {
 //			for(int j=i+1;j<nums.length;j++)
 //				if(nums[j]==target-nums[i]) {
@@ -28,7 +28,7 @@ public class TwoSum {
 //				}		
 //		}
 
-		//두번째 강의보고 푼 것.
+		//?��번째 강의보고 ?�� �?.
 		Map<Integer,Integer> map = new HashMap<Integer, Integer>();
 		for(int i=0;i<nums.length;i++) {
 			if(map.containsKey(nums[i])) {

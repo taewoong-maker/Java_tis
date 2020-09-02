@@ -8,7 +8,7 @@ public class MoveZeros {
 		int currentIndex = 0;
 		int a = nums.length-1;
 		
-		//첫번째!!
+		//첫번�?!!
 		
 //		for(int i=nums.length-1;i>=0;i--) {
 //			if(nums[i]==0) {
@@ -21,7 +21,7 @@ public class MoveZeros {
 //			}
 //		}
 		
-		//두번째!!
+		//?��번째!!
 		for(int i=0;i<nums.length;i++) {
 			if(nums[i] != 0) {
 				nums[currentIndex]=nums[i];
